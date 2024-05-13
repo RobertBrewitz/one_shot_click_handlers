@@ -20,8 +20,8 @@ mod settings;
 #[derive(Debug, Default, States, Hash, Clone, PartialEq, Eq, Reflect)]
 pub enum RouteState {
     #[default]
-    Game,
     Menu,
+    Game,
     Settings,
     Exit,
 }
